@@ -18,8 +18,8 @@ cask "autocodebar" do
   app "AutoCodeBar.app"
 
   zap trash: [
-    "~/Library/Preferences/dev.qiuzezheng.AutoCodeBar.plist",
     "~/Library/Caches/dev.qiuzezheng.AutoCodeBar",
     "~/Library/HTTPStorages/dev.qiuzezheng.AutoCodeBar",
+    "~/Library/Preferences/dev.qiuzezheng.AutoCodeBar.plist",
   ]
 end
