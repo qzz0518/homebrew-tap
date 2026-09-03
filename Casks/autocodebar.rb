@@ -1,6 +1,6 @@
 cask "autocodebar" do
-  version "2.0.1"
-  sha256 "ed2cf66c8496248ade6f036cfe20d4048ba007d57d3c4d57c3837223d9c74229"
+  version "2.0.2"
+  sha256 "8d4f64ba15cd93d3bbcaafcd98ef78113aa7355676ab356957ed9e6c87ca8f32"
 
   url "https://github.com/qzz0518/AutoCodeBar/releases/download/v#{version}/AutoCodeBar-#{version}.dmg"
   name "AutoCodeBar"
@@ -18,8 +18,8 @@ cask "autocodebar" do
   app "AutoCodeBar.app"
 
   zap trash: [
-    "~/Library/Caches/dev.qiuzezheng.AutoCodeBar",
-    "~/Library/HTTPStorages/dev.qiuzezheng.AutoCodeBar",
-    "~/Library/Preferences/dev.qiuzezheng.AutoCodeBar.plist",
+    "~/Library/Caches/cc.zerah.AutoCodeBar",
+    "~/Library/HTTPStorages/cc.zerah.AutoCodeBar",
+    "~/Library/Preferences/cc.zerah.AutoCodeBar.plist",
   ]
 end
