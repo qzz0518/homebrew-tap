@@ -1,6 +1,6 @@
 cask "autocodebar" do
-  version "2.0.5"
-  sha256 "83b7ec383796b5f02c695a14f3ce0238919f054adb5a34c808f843bf3f8f0071"
+  version "2.0.6"
+  sha256 "99459adc773e6a56e18bc0849e995fda3f5f391b166ea61e56f42146598deca7"
 
   url "https://github.com/qzz0518/AutoCodeBar/releases/download/v#{version}/AutoCodeBar-#{version}.dmg"
   name "AutoCodeBar"
