@@ -1,6 +1,6 @@
 cask "dukou" do
-  version "0.1.9"
-  sha256 "0953229c652f178620600f705dc2b3b86d6e217a5278f8505f2d4fcc831ae879"
+  version "0.1.10"
+  sha256 "e6f2aed2cd50326199b2068c5be58db90ee0fbbf1e7c51f586e08fe750ac7de8"
 
   url "https://github.com/qzz0518/Dukou/releases/download/v#{version}/Dukou-#{version}.dmg"
   name "Dukou"
