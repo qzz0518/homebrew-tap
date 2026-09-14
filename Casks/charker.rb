@@ -1,10 +1,10 @@
 cask "charker" do
-  version "0.1.0"
-  sha256 "661b7e0bb734971ab11e3a797ba1598383f4d266382fbcd4ec7fe88fdde0964a"
+  version "0.2.0"
+  sha256 "e6ca695b4ae6613d16fb4f14684e66fe0fafbdc62255e32bc499221f70a9606e"
 
   url "https://github.com/qzz0518/Charker/releases/download/v#{version}/Charker-#{version}.dmg"
   name "Charker"
-  desc "Companion for monitoring and controlling an Anker Prime 160W charger"
+  desc "Companion for monitoring Anker Prime 160W and 250W chargers"
   homepage "https://github.com/qzz0518/Charker"
 
   livecheck do
