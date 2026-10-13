@@ -1,6 +1,6 @@
 cask "charker" do
-  version "0.3.2"
-  sha256 "fabb6bb809518497dda50a1b717d54d22dff53efffb46ccb0302e5d1ab864420"
+  version "0.4.0"
+  sha256 "0d4d2cb4daf6949c5d8cc599e944aba0932a8fcde53129cbb782919f5e589cdc"
 
   url "https://github.com/qzz0518/Charker/releases/download/v#{version}/Charker-#{version}.dmg"
   name "Charker"
