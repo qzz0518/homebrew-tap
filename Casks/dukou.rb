@@ -18,6 +18,7 @@ cask "dukou" do
   app "Dukou.app"
 
   zap trash: [
+    "~/Library/Application Support/Dukou",
     "~/Library/Containers/dev.dukou.Dukou*",
     "~/Library/Group Containers/H2P566W3PA.dev.dukou.shared",
     "~/Library/Preferences/dev.dukou.Dukou.plist",
